@@ -6,6 +6,9 @@ d={}
 def find_sum():
     return 10
 
+def dev():
+    return 100
+
 
 def create(key,value,timeout=0):
     if key in d:
