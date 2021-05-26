@@ -3,6 +3,10 @@ from threading import*
 import time
 #data storage
 d={}
+def find_sum():
+    return 10
+
+
 def create(key,value,timeout=0):
     if key in d:
         print("Error: key already exists") 
